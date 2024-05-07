@@ -42,7 +42,7 @@ function AddItemScreen({ navigation }) {
                 style={styles.input}
                 placeholder="Quantidade"
                 value={quantity}
-                onChangeText={text => setQuantity(text)}
+                onChangeText={text => setQuantity(number)}
                 keyboardType="numeric"
             />
             <Button title="Adicionar" onPress={addItemToList} />
